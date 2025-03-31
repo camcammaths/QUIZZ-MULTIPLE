@@ -3,28 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz de Maths</title>
+    <title>Quiz de Maths Brevet</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Quiz de Maths !</h1>
+    <div class="quiz-container">
+        <h1>Quiz de Maths - Programme Brevet</h1>
         <form id="quiz-form">
-            <div class="question">
-                <p>Quelle est la somme de 3 + 5 ?</p>
-                <label>
-                    <input type="radio" name="question1" value="7"> 7
-                </label><br>
-                <label>
-                    <input type="radio" name="question1" value="8"> 8
-                </label><br>
-                <label>
-                    <input type="radio" name="question1" value="9"> 9
-                </label>
-            </div>
+            <div id="quiz-questions"></div>
             <button type="submit">Soumettre</button>
         </form>
+        <div id="quiz-result"></div>
     </div>
+
+    <script src="questions.json"></script>
     <script src="script.js"></script>
 </body>
+</html>
+
 </html>
